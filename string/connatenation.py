@@ -2,7 +2,7 @@
 a = "Hello"
 b = "World"
 c = a + b
-print(C)  # Output: HelloWorld
+print(c)  # Output: HelloWorld
 
 # case 2
 a = "Hello"
