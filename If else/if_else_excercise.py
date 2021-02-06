@@ -1,18 +1,18 @@
-grade = int(input("Enter your point : "))
+grade = int(input("Enter your score : "))
 
 if grade <= 49:
-    print("F")
+    print("Grade: F")
 elif grade <= 54:
-    print("D")
+    print("Grade: D")
 elif grade <= 59:
-    print("D+")
+    print("Grade: D+")
 elif grade <= 64:
-    print("C")
+    print("Grade: C")
 elif grade <= 69:
-    print("C+")
+    print("Grade: C+")
 elif grade <= 74:
-    print("B")
+    print("Grade: B")
 elif grade <= 79:
-    print("B+")
+    print("Grade: B+")
 elif grade <= 100:
-    print("A")
+    print("Grade: A")
