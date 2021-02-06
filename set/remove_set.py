@@ -1,19 +1,19 @@
-#EX 1
+# EX 1
 thisset = {"apple", "banana", "cherry"}
 thisset.remove("banana")
-print(thisset) # Output: {'apple', 'cherry'}
+print(thisset)  # Output: {'apple', 'cherry'}
 
-#EX 2
+# EX 2
 thisset = {"apple", "banana", "cherry"}
 thisset.discard("banana")
-print(thisset) # Output: {'cherry', 'apple'}
+print(thisset)  # Output: {'cherry', 'apple'}
 
-#EX 3
+# EX 3
 thisset = {"apple", "banana", "cherry"}
 x = thisset.pop()
-print(thisset) # Output: {'cherry', 'cherry'}
+print(thisset)  # Output: {'cherry', 'cherry'}
 
-#EX 4
+# EX 4
 thisset = {"apple", "banana", "cherry"}
 thisset.clear()
-print(thisset) # Output: set()
+print(thisset)  # Output: set()
